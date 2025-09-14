@@ -54,9 +54,9 @@ This project demonstrates contract listing, filtering, pagination, and file uplo
         })
         ```
     - Import Tailwind CSS (index.css)
-    ```
-        @import "tailwindcss";
-    ```
+        ```
+            @import "tailwindcss";
+        ```
 
 5. **Start Mock API (JSON Server)**
     ```
@@ -76,7 +76,7 @@ This project demonstrates contract listing, filtering, pagination, and file uplo
     ```
 
 
-## Tech Stack Choices -
+## Tech Stack Choices
 
 - **Frontend Framework** → React with Vite for fast development.
 - **State Management** → Redux Toolkit for predictable and centralized state handling.
@@ -84,7 +84,7 @@ This project demonstrates contract listing, filtering, pagination, and file uplo
 - **Mock API** → JSON Server to simulate backend REST APIs.
 - **Icons** → Lucide React for clean and customizable SVG icons.
 
-## Assumptions Made -
+## Assumptions Made
 1. Contracts are stored in a mock API (db.json) and follow a simple schema:
 2. Pagination is implemented on the frontend side using Redux state (itemsPerPage).
 3. File uploads in the modal are simulated and not actually stored on the backend (for demo purposes).
