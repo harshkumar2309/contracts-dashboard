@@ -13,8 +13,7 @@ This project demonstrates contract listing, filtering, pagination, and file uplo
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
-   cd <project-folder>
+   git clone https://github.com/harshkumar2309/contracts-dashboard.git
    ```
 
 2. **Install Dependencies**
